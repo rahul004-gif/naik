@@ -59,10 +59,9 @@ nav a{
 
 nav a:hover,
 nav a.active{
-        color: #f40909;
-        border-bottom:3px solid red;
-
-
+        color: #fefbfb;
+        overflow: hidden;
+        border-bottom: 3px solid #f40909;
 }
 
 @media(max-width :995px){
@@ -107,7 +106,7 @@ nav a.active{
         justify-content: center;
         align-items: center;
         gap: 8rem ;
-        background-color: #060000;
+        background-color: #070000;
     }
 
     .home .home-content h1{
@@ -130,9 +129,11 @@ nav a.active{
 
     /*skills section*/
     #skills {
-        color: aliceblue;
-        padding: 2rem;
-        pp
+        background-color: #12000046;
+        color: #e9f0f7;
+        font-size: 2rem ;
+        margin-top: 2rem;
+        padding: 10rem;
     }
 
     
